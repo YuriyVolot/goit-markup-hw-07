@@ -62,6 +62,12 @@ use {
   text-decoration: none;
   display: block;
 }
+
+.user-nav {
+  margin: 0;
+  padding: 0;
+}
+
 .user-nav {
   display: flex;
   flex-wrap: wrap;
@@ -128,7 +134,7 @@ button.sign-up:focus {
 .find:focus {
   border-color: var(--accent-color);
 }
-.button {
+.link {
   font-family: var(--main-font);
   font-size: var(--main-font-size);
   font-weight: 700;
@@ -144,8 +150,8 @@ button.sign-up:focus {
   border-radius: 20px;
   border: 2px solid var(--hero-font-color);
 }
-.button:hover,
-.button:focus {
+.link:hover,
+.link:focus {
   background-color: var(--accent-color);
   color: var(--hero-font-color);
 }
@@ -154,12 +160,17 @@ button.sign-up:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
+
+.partners {
+  margin: 0;
+}
+
 .partners {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 72px;
-  padding-bottom: 58px;
+  margin-bottom: 58px;
 }
 .partners h2 {
   font-family: var(--main-font);
@@ -296,6 +307,12 @@ button.sign-up:focus {
   .partners h2 {
     margin-bottom: 40px;
   }
+
+  .partner-list {
+    margin: 0;
+    padding: 0;
+  }
+
   .partner-list {
     display: flex;
     flex-wrap: wrap;
